@@ -1,0 +1,147 @@
+:root {
+  --floens-text: #F2EEEA;
+  --floens-text-rgb: 242, 238, 234;
+  --floens-text2: #7A736A;
+  --floens-text2-rgb: 122, 115, 106;
+  --floens-black: #000000;
+  --floens-black-rgb: 0, 0, 0;
+  --floens-black2: #ffffff;
+  --floens-black2-rgb: 255, 255, 255;
+  --floens-black3: #2B1E16;
+  --floens-black3-rgb: 43, 30, 22;
+  --floens-black4: #120C08;
+  --floens-black4-rgb: 18, 12, 8;
+  --floens-black5: #18100B;
+  --floens-black5-rgb: 24, 16, 11;
+  --floens-black6: #121212;
+  --floens-black6-rgb: 18, 18, 18;
+  --floens-border-color: #7A736A;
+  --floens-border-color-rgb: 122, 115, 106;
+  --floens-border-color2: #DED8D3;
+  --floens-border-color2-rgb: 222, 216, 211;
+}
+
+body {
+  background-color: var(--floens-black5);
+}
+
+.floens-btn::before, .floens-btn::after {
+  background-color: var(--floens-base2);
+}
+.floens-btn--border:hover {
+  border-color: var(--floens-base2);
+}
+.floens-btn:hover i::after {
+  background-color: var(--floens-black2);
+}
+
+.about-three,
+.services-three,
+.work-process,
+.reliable-one,
+.testimonials-three,
+.blog-three,
+.client-carousel {
+  background-color: var(--floens-black5);
+}
+
+.progress-box .progress-box__bar,
+.services-three .service-card-two .service-card-two__bg,
+.contact-one .contact-one__info,
+.main-footer,
+.mobile-nav__content {
+  background-color: var(--floens-black3);
+}
+
+.services-three .service-card-two,
+.work-process .work-process__image,
+.work-process .work-process__step,
+.experience,
+.contact-one .contact-one__form,
+.testimonials-card-three .testimonials-card-three__quotes,
+.team-two__social .team-two__social__share,
+.blog-card--three .blog-card__content {
+  background-color: var(--floens-black);
+}
+
+.contact-one,
+.team-two {
+  background-color: var(--floens-black4);
+}
+
+.form-one textarea {
+  background-color: var(--floens-black6);
+}
+
+.reliable-one .reliable-one__ratings::before {
+  background-color: var(--floens-gray2);
+}
+
+.services-three .services-three__bg,
+.contact-one .contact-one__bg,
+.team-two .team-two__bg {
+  mix-blend-mode: hard-light;
+}
+
+.work-process .work-process__title,
+.reliable-one .reliable-one__info .reliable-one__info__title,
+.blog-card--three .blog-card__meta li {
+  color: var(--floens-text);
+}
+
+.form-one input[type=text],
+.form-one input[type=email],
+.form-one textarea,
+.testimonials-card-three .testimonials-card-three__designation,
+.team-two .team-two__designation,
+.team-two__social .team-two__social__share,
+.main-menu .main-menu__list li ul li > a,
+.sticky-header--cloned.main-header--three .main-menu .main-menu__list > li > a,
+.footer-widget .footer-widget__newsletter input[type=text] {
+  color: var(--floens-text2);
+}
+
+.form-one .bootstrap-select > .dropdown-toggle,
+.form-one .bootstrap-select > .dropdown-toggle::before {
+  color: var(--floens-text2) !important;
+}
+
+.form-one .bootstrap-select .dropdown-menu > li + li > a,
+.main-menu .main-menu__list li ul li:not(:last-child) a,
+.contact-one .sec-title {
+  border-color: var(--floens-border-color2);
+}
+
+.work-process .work-process__step {
+  border-color: var(--floens-black);
+}
+
+.main-slider-three .hero-slider__slick-button:hover,
+.form-one .bootstrap-select .dropdown-menu > li > a,
+.blog-card--three .blog-card__date .blog-card__date__month,
+.main-slider-three .main-slider-three__slider-controls li:hover,
+.sticky-header--cloned.main-header--three .main-menu .main-menu__list > li.current > a,
+.sticky-header--cloned.main-header--three .main-menu .main-menu__list > li:hover > a,
+.sticky-header--cloned.main-header--three .main-header__cart,
+.sticky-header--cloned.main-header--three .main-header__search,
+.footer-widget .footer-widget__newsletter input[type=text]:focus,
+.footer-widget .footer-widget__newsletter button[type=submit]:hover {
+  color: var(--floens-black3);
+}
+
+.blog-card--three .blog-card__meta li a:hover {
+  color: var(--floens-base);
+}
+
+.work-process .work-process__shape-one {
+  opacity: 0.5;
+}
+
+.work-process .work-process__shape-two {
+  opacity: 0.3;
+}
+
+.gallery-one__card .gallery-one__card__hover {
+  background-color: rgba(var(--floens-black3-rgb), 0.8);
+}
+/*# sourceMappingURL=floens-dark.css.map */

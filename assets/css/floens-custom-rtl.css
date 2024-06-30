@@ -1,0 +1,123 @@
+body {
+  overflow-x: hidden;
+  direction: rtl;
+}
+
+.owl-carousel {
+  direction: ltr;
+}
+
+.owl-carousel .owl-nav,
+.owl-carousel .owl-dots,
+.owl-carousel .owl-item {
+  direction: rtl;
+}
+
+.slider-container .tns-outer {
+  direction: ltr;
+}
+.slider-container .tns-outer .tns-item {
+  direction: rtl;
+}
+
+.contact__input-box .bootstrap-select .dropdown-menu,
+.bootstrap-select .dropdown-toggle .filter-option {
+  text-align: right;
+}
+
+.list-unstyled {
+  padding-right: 0;
+}
+
+.main-slider .main-slider__left {
+  transform: translateY(0);
+  opacity: 1;
+}
+.main-slider .main-slider__image {
+  transform: scale(1);
+  opacity: 1;
+}
+.main-slider .hero-slider__slick-button--prev {
+  left: 434px;
+}
+@media (max-width: 1399px) {
+  .main-slider .hero-slider__slick-button--prev {
+    right: auto;
+    left: calc(50% - 144px);
+  }
+}
+@media (max-width: 991px) {
+  .main-slider .hero-slider__slick-button--prev {
+    left: calc(50% - 134px);
+  }
+}
+@media (max-width: 575px) {
+  .main-slider .hero-slider__slick-button--prev {
+    left: calc(50% - 115px);
+  }
+}
+@media (max-width: 500px) {
+  .main-slider .hero-slider__slick-button--prev {
+    left: 15px;
+  }
+}
+@media (max-width: 375px) {
+  .main-slider .hero-slider__slick-button--prev {
+    left: calc(50% - 116px);
+  }
+}
+.main-slider .hero-slider__slick-button--next {
+  left: 586px;
+}
+@media (max-width: 1399px) {
+  .main-slider .hero-slider__slick-button--next {
+    left: auto;
+    right: calc(50% - 144px);
+  }
+}
+@media (max-width: 991px) {
+  .main-slider .hero-slider__slick-button--next {
+    right: calc(50% - 134px);
+  }
+}
+@media (max-width: 575px) {
+  .main-slider .hero-slider__slick-button--next {
+    right: calc(50% - 115px);
+  }
+}
+@media (max-width: 500px) {
+  .main-slider .hero-slider__slick-button--next {
+    right: auto;
+    left: 135.28px;
+  }
+}
+@media (max-width: 375px) {
+  .main-slider .hero-slider__slick-button--next {
+    left: auto;
+    right: calc(50% - 116px);
+  }
+}
+
+.offer-one__service__image img {
+  clip-path: polygon(0 0, 67% 0, 100% 100%, 30% 100%);
+}
+
+.projects-one__shape {
+  clip-path: polygon(0 0, 68% 0%, 100% 100%, 30% 100%);
+}
+
+@media (max-width: 500px) {
+  .testimonials-card--two .testimonials-card__video {
+    margin-left: 0;
+  }
+}
+
+.blog-card .blog-card__meta {
+  padding-right: 30px;
+}
+@media (max-width: 375px) {
+  .blog-card .blog-card__meta {
+    padding-right: 25px;
+  }
+}
+/*# sourceMappingURL=floens-custom-rtl.css.map */
