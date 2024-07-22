@@ -150,6 +150,9 @@
         message: {
           required: true
         },
+        service: {
+          required: true
+        },
         subject: {
           required: true
         }
