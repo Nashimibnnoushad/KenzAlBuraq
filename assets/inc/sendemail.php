@@ -1,8 +1,10 @@
 <?php
 
+define("SMTP_EMAIL", "sales@kenzburaq.com")
+define("SMTP_PASSWORD", "yaqe xmxm onrb thwu")
 // Define some constants
-define( "RECIPIENT_NAME", "John Doe" );
-define( "RECIPIENT_EMAIL", "mail@mail.com" );
+define( "RECIPIENT_NAME", "Kenz Buraq" );
+define( "RECIPIENT_EMAIL", "sales@kenzburaq.com" );
 
 // Read the form values
 $success = false;
