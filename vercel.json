@@ -1,9 +1,9 @@
 {
     "functions": {
-        "assets/inc/php/sendemail.php": { "runtime": "vercel-php@0.6.0" }
+        "api/**/*.php": { "runtime": "vercel-php@0.6.0" }
     },
     "routes": [
-        { "src": "/api/sendemail", "dest": "/assets/inc/php/sendemail.php" },
+        { "src": "/api/(.*)", "dest": "/api/$1" },
         { "src": "/assets/(.*)", "headers": { "cache-control": "s-maxage=31536000, stale-while-revalidate" } },
         { "src": "/(.*)", "dest": "index.html" }
     ]
