@@ -7,10 +7,10 @@ include "php/Exception.php";
 include "php/PHPMailer.php";
 include "php/SMTP.php";
 
-define("SMTP_EMAIL", "vivek.hashroot@gmail.com");
-define("SMTP_PASSWORD", "hhuyzvofvsggypwk");
-define("RECIPIENT_NAME", "Vivek Sahu");
-define("RECIPIENT_EMAIL", "vivek.hashroot@gmail.com");
+define("SMTP_EMAIL", "sales@kenzburaq.com");
+define("SMTP_PASSWORD", "bflsotpzleeyhjov");
+define("RECIPIENT_NAME", "Kenz Buraq");
+define("RECIPIENT_EMAIL", "sales@kenzburaq.com");
 
 // Read the form values
 $success = false;
