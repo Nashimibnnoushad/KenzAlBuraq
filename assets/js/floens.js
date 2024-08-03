@@ -134,8 +134,7 @@
         cursor.classList.remove("custom-cursor__hover");
       });
     });
-  }
-
+  } 
   if ($(".contact-form-validated").length) {
     $(".contact-form-validated").validate({
       // initialize the plugin
