@@ -4158,8 +4158,8 @@ body.megamenu-popup-active .mobile-nav__content {
 .page-header {
   background-color: var(--floens-black2, #2B1E16);
   position: relative;
-  padding-top: 107px;
-  padding-bottom: 119px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 @media (max-width: 991px) {
   .page-header {
