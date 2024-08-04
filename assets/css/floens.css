@@ -8809,7 +8809,7 @@ body.megamenu-popup-active .mobile-nav__content {
   color: var(--floens-base, #C7844F);
 }
 .sidebar-one__item:not(:last-child) {
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 .sidebar-one__title {
   font-size: 22px;
@@ -15977,3 +15977,44 @@ body.boxed-wrapper .projects-one__shape {
   }
 }
 /*# sourceMappingURL=floens.css.map */
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+@media (max-width: 1024px) {
+  .company-name {
+    display: none;
+  }
+  .toggle-button {
+    margin: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .company-name {
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: -10px;
+    color: #333;
+    font-family: none;
+  }
+  .toggle-button {
+    margin: 0 0px 0 350px;
+  }
+}
+
+.company-name-footer {
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: -10px;
+  color: white;
+  font-family: none;
+  padding-top: 30px;
+}
+
