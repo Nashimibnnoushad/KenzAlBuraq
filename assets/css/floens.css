@@ -2847,8 +2847,8 @@ p {
 .main-header--two {
   /* background-color: var(--floens-white, #ffffff); */
   background-color: #ffc107;
-  height: 200px;
-  padding-top: 25px;
+  height: 175px;
+  padding-top: 10px;
 }
 .main-header--two .container-fluid {
   max-width: 1702px;
@@ -2881,7 +2881,7 @@ p {
 }
 @media (max-width: 360px) {
   .main-header--two {
-    height: 130px;
+    height: 110px;
   }
   .main-header--two .main-header__logo img {
     width: 90%;
